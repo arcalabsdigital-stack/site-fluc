@@ -58,7 +58,7 @@ export function Problems() {
                 </div>
                 <div className="w-full sm:w-3/5 p-6 md:p-8 flex items-center">
                   <h3 className="text-xl font-semibold text-slate-900 leading-snug">
-                    "{problem.title}"
+                    &quot;{problem.title}&quot;
                   </h3>
                 </div>
               </CardContent>

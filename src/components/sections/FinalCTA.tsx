@@ -9,10 +9,7 @@ export function FinalCTA() {
 
       {/* Decorative blurred circles */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-50 animate-pulse-soft -z-10" />
-      <div
-        className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-50 animate-pulse-soft -z-10"
-        delay-1000
-      />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-50 animate-pulse-soft delay-1000 -z-10" />
 
       <div className="container px-4 mx-auto py-24 md:py-32 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 max-w-3xl mx-auto leading-tight">
