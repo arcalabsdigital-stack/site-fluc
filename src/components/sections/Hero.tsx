@@ -37,7 +37,7 @@ export function Hero() {
               size="lg"
               className="bg-primary-gradient text-white border-0 h-14 px-8 text-lg rounded-full hover:scale-105 hover:brightness-110 transition-all duration-300 animate-pulse-soft shadow-xl shadow-blue-900/20"
             >
-              <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">Comece Agora</a>
+              <a href="https://gestao-financeira-clone-0ca8c.goskip.app/signup">Comece Agora</a>
             </Button>
             <p className="text-sm text-slate-300 font-medium">
               Teste grátis por 7 dias. Sem cartão de crédito.

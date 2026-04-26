@@ -87,7 +87,7 @@ export default function Layout() {
               asChild
               className="bg-primary-gradient text-white rounded-full px-6 hover:scale-105 transition-transform"
             >
-              <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">Comece Agora</a>
+              <a href="https://gestao-financeira-clone-0ca8c.goskip.app/signup">Comece Agora</a>
             </Button>
           </div>
 
@@ -104,9 +104,7 @@ export default function Layout() {
             <SheetContent side="right" className="w-[300px] flex flex-col pt-16">
               <NavLinks mobile />
               <Button asChild className="mt-8 bg-primary-gradient w-full rounded-full h-12 text-lg">
-                <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">
-                  Comece Agora
-                </a>
+                <a href="https://gestao-financeira-clone-0ca8c.goskip.app/signup">Comece Agora</a>
               </Button>
             </SheetContent>
           </Sheet>

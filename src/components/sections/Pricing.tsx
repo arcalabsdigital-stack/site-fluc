@@ -15,7 +15,7 @@ const plans = [
       'Dashboard Financeiro',
       'Lançamentos Básicos',
     ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=fluxo',
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=fluxo',
     highlighted: false,
   },
   {
@@ -28,7 +28,7 @@ const plans = [
       'Tudo do plano FLUXO',
       'Orçamento Inteligente',
     ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro',
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=lucro',
     highlighted: true,
     badge: 'Mais Popular',
   },
@@ -42,7 +42,7 @@ const plans = [
       'Tudo do plano LUCRO',
       'Acesso para Contador',
     ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=patrimonio',
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=patrimonio',
     highlighted: false,
   },
 ]
