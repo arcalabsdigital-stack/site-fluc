@@ -4,19 +4,23 @@ import { Card, CardContent } from '@/components/ui/card'
 const problems = [
   {
     title: 'Não sabe o lucro mensal real',
-    videoUrl: 'https://res.cloudinary.com/dtgcobo29/video/upload/1-nolucroreal_jfngjm.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061132/1-nolucroreal_jfngjm.mp4',
   },
   {
     title: 'Não consegue planejar fluxo de caixa',
-    videoUrl: 'https://res.cloudinary.com/dtgcobo29/video/upload/2-noplanejamento_mxasn3.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061146/2-noplanejamento_mxasn3.mp4',
   },
   {
     title: 'Não sabe onde está gastando mais',
-    videoUrl: 'https://res.cloudinary.com/dtgcobo29/video/upload/3-nosabegasto_ehbbl8.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061154/3-nosabegasto_ehbbl8.mp4',
   },
   {
     title: 'Não conhece o valor da sua empresa',
-    videoUrl: 'https://res.cloudinary.com/dtgcobo29/video/upload/4-novaluation_rza9vv.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061157/4-novaluation_rza9vv.mp4',
   },
 ]
 
