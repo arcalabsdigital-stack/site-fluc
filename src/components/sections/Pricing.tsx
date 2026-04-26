@@ -6,42 +6,43 @@ import { cn } from '@/lib/utils'
 
 const plans = [
   {
-    name: 'Start',
-    price: '29',
-    description: 'Para empreendedores individuais iniciando o controle.',
+    name: 'FLUXO',
+    price: '39',
+    description: 'Entender o fluxo de caixa básico',
     features: [
+      'Para MEI (até R$ 81K/ano)',
+      '1 usuário',
       'Dashboard Financeiro',
-      'Fluxo de Caixa',
-      'Lançamentos Ilimitados',
-      'Suporte por Email',
+      'Lançamentos Básicos',
     ],
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=fluxo',
     highlighted: false,
   },
   {
-    name: 'Pro',
-    price: '49',
-    description: 'A solução completa com DRE e Valuation inclusos.',
+    name: 'LUCRO',
+    price: '89',
+    description: 'Maximizar lucro com DRE + Valuation',
     features: [
-      'Tudo do plano Start',
-      'DRE Simplificado',
-      'Valuation em Tempo Real',
+      'Para ME (R$ 81K até R$ 360K/ano)',
+      '3 usuários',
+      'Tudo do plano FLUXO',
       'Orçamento Inteligente',
-      'Suporte Prioritário',
     ],
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro',
     highlighted: true,
     badge: 'Mais Popular',
   },
   {
-    name: 'Enterprise',
-    price: '99',
-    description: 'Para empresas em crescimento e múltiplas equipes.',
+    name: 'PATRIMÔNIO',
+    price: '179',
+    description: 'Construir e proteger patrimônio',
     features: [
-      'Tudo do plano Pro',
-      'Múltiplos Usuários (até 5)',
+      'Para EPP (acima de R$ 360K/ano)',
+      '15 usuários',
+      'Tudo do plano LUCRO',
       'Acesso para Contador',
-      'Relatórios Customizados',
-      'Gerente de Conta',
     ],
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app?plan=patrimonio',
     highlighted: false,
   },
 ]
@@ -99,6 +100,7 @@ export function Pricing() {
                   ))}
                 </ul>
                 <Button
+                  asChild
                   className={cn(
                     'w-full h-12 rounded-xl text-md font-semibold transition-all hover:scale-[1.02]',
                     plan.highlighted
@@ -106,7 +108,7 @@ export function Pricing() {
                       : 'bg-slate-100 text-slate-900 hover:bg-slate-200',
                   )}
                 >
-                  Assinar {plan.name}
+                  <a href={plan.href}>Assinar {plan.name}</a>
                 </Button>
               </CardContent>
             </Card>

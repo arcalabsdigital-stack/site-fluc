@@ -83,8 +83,11 @@ export default function Layout() {
           </nav>
 
           <div className="hidden md:block">
-            <Button className="bg-primary-gradient text-white rounded-full px-6 hover:scale-105 transition-transform">
-              Comece Agora
+            <Button
+              asChild
+              className="bg-primary-gradient text-white rounded-full px-6 hover:scale-105 transition-transform"
+            >
+              <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">Comece Agora</a>
             </Button>
           </div>
 
@@ -100,8 +103,10 @@ export default function Layout() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] flex flex-col pt-16">
               <NavLinks mobile />
-              <Button className="mt-8 bg-primary-gradient w-full rounded-full h-12 text-lg">
-                Comece Agora
+              <Button asChild className="mt-8 bg-primary-gradient w-full rounded-full h-12 text-lg">
+                <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">
+                  Comece Agora
+                </a>
               </Button>
             </SheetContent>
           </Sheet>

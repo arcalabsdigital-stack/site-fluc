@@ -23,10 +23,13 @@ export function FinalCTA() {
         </p>
 
         <Button
+          asChild
           size="lg"
           className="bg-white text-blue-700 hover:bg-slate-50 border-0 h-14 px-10 text-lg rounded-full hover:scale-105 transition-all duration-300 shadow-2xl shadow-black/20"
         >
-          Comece Agora — 7 Dias Grátis
+          <a href="https://gestao-financeira-clone-0ca8c.goskip.app?plan=lucro">
+            Comece Agora — 7 Dias Grátis
+          </a>
         </Button>
       </div>
     </SectionWrapper>
