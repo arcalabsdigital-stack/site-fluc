@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
-import { Menu, WalletCards } from 'lucide-react'
+import { Menu } from 'lucide-react'
+import { FlucLogo } from '@/components/FlucLogo'
 import { cn } from '@/lib/utils'
 
 export default function Layout() {
@@ -28,7 +29,7 @@ export default function Layout() {
       className="flex items-center gap-2 text-primary cursor-pointer"
       onClick={() => window.scrollTo(0, 0)}
     >
-      <WalletCards className="w-8 h-8" />
+      <FlucLogo />
       <span className="text-2xl font-bold tracking-tighter text-slate-900">Fluc</span>
     </div>
   )
@@ -118,7 +119,7 @@ export default function Layout() {
       <footer className="bg-slate-900 py-12 text-slate-400">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2 text-white opacity-80">
-            <WalletCards className="w-6 h-6" />
+            <FlucLogo className="w-6 h-6 text-base" />
             <span className="text-xl font-bold tracking-tighter">Fluc</span>
           </div>
           <p className="text-sm text-center md:text-left">
