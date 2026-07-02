@@ -4,23 +4,19 @@ import { Card, CardContent } from '@/components/ui/card'
 const problems = [
   {
     title: 'Não sabe o lucro mensal real',
-    videoUrl:
-      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061132/1-nolucroreal_jfngjm.mp4',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=financial%20analysis%20calculator',
   },
   {
     title: 'Não consegue planejar fluxo de caixa',
-    videoUrl:
-      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061146/2-noplanejamento_mxasn3.mp4',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=cash%20flow%20planning',
   },
   {
     title: 'Não sabe onde está gastando mais',
-    videoUrl:
-      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061154/3-nosabegasto_ehbbl8.mp4',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=expense%20tracking%20costs',
   },
   {
     title: 'Não conhece o valor da sua empresa',
-    videoUrl:
-      'https://res.cloudinary.com/dtgcobo29/video/upload/v1777061157/4-novaluation_rza9vv.mp4',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=business%20valuation%20growth',
   },
 ]
 
@@ -46,15 +42,11 @@ export function Problems() {
             >
               <CardContent className="p-0 flex flex-col sm:flex-row items-center h-full">
                 <div className="w-full sm:w-2/5 aspect-square relative bg-slate-100 overflow-hidden">
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
+                  <img
+                    src={problem.imageUrl}
+                    alt={problem.title}
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  >
-                    <source src={problem.videoUrl} type="video/mp4" />
-                  </video>
+                  />
                 </div>
                 <div className="w-full sm:w-3/5 p-6 md:p-8 flex items-center">
                   <h3 className="text-xl font-semibold text-slate-900 leading-snug">

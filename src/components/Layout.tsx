@@ -119,7 +119,7 @@ export default function Layout() {
       <footer className="bg-white py-12 text-slate-600 border-t border-slate-200">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2 text-slate-900">
-            <FlucLogo className="w-6 h-6 text-sm" />
+            <FlucLogo className="w-6 h-6 text-sm rounded-md" />
             <span className="text-xl font-bold tracking-tighter">Fluc</span>
           </div>
           <p className="text-sm text-center md:text-left text-slate-500">
