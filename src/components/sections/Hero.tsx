@@ -40,7 +40,7 @@ export function Hero() {
               <a href="https://gestao-financeira-clone-0ca8c.goskip.app/signup">Comece Agora</a>
             </Button>
             <p className="text-sm text-slate-300 font-medium">
-              Teste grátis por 7 dias. Sem cartão de crédito.
+              Teste grátis por 14 dias. Sem cartão de crédito.
             </p>
           </div>
         </div>

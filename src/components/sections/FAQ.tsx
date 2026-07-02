@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'Como funciona o período de teste?',
-    a: 'Você tem 7 dias grátis para testar todas as funcionalidades do plano Pro. Não pedimos cartão de crédito no cadastro, assim você não corre o risco de ser cobrado acidentalmente.',
+    a: 'Você tem 14 dias grátis para testar todas as funcionalidades do plano Pro, sem compromisso. Não pedimos cartão de crédito no cadastro, assim você pode explorar a plataforma com tranquilidade antes de decidir.',
   },
 ]
 

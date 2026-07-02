@@ -4,19 +4,19 @@ import { Card, CardContent } from '@/components/ui/card'
 const problems = [
   {
     title: 'Não sabe o lucro mensal real',
-    imageUrl: 'https://img.usecurling.com/p/400/400?q=financial%20analysis%20calculator',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=profit%20loss%20report&dpr=2',
   },
   {
     title: 'Não consegue planejar fluxo de caixa',
-    imageUrl: 'https://img.usecurling.com/p/400/400?q=cash%20flow%20planning',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=cash%20flow%20calendar&dpr=2',
   },
   {
     title: 'Não sabe onde está gastando mais',
-    imageUrl: 'https://img.usecurling.com/p/400/400?q=expense%20tracking%20costs',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=expense%20breakdown%20chart&dpr=2',
   },
   {
     title: 'Não conhece o valor da sua empresa',
-    imageUrl: 'https://img.usecurling.com/p/400/400?q=business%20valuation%20growth',
+    imageUrl: 'https://img.usecurling.com/p/400/400?q=company%20valuation%20growth&dpr=2',
   },
 ]
 
