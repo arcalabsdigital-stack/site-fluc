@@ -6,44 +6,33 @@ import { cn } from '@/lib/utils'
 
 const plans = [
   {
-    name: 'FLUXO',
-    price: '39',
-    description: 'Entender o fluxo de caixa básico',
+    name: 'Mensal',
+    price: '49,90',
+    description: 'Flexibilidade para pagar mês a mês',
     features: [
-      'Para MEI (até R$ 81K/ano)',
-      '1 usuário',
-      'Dashboard Financeiro',
-      'Lançamentos Básicos',
+      'Todas as funcionalidades inclusas',
+      'DRE e Valuation automáticos',
+      'Dashboard financeiro completo',
+      'Lançamentos ilimitados',
+      'Suporte por e-mail e chat',
     ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=fluxo',
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=mensal',
     highlighted: false,
   },
   {
-    name: 'LUCRO',
-    price: '89',
-    description: 'Maximizar lucro com DRE + Valuation',
+    name: 'Anual',
+    price: '29,90',
+    description: 'Economize pagando anualmente',
     features: [
-      'Para ME (R$ 81K até R$ 360K/ano)',
-      '3 usuários',
-      'Tudo do plano FLUXO',
-      'Orçamento Inteligente',
+      'Todas as funcionalidades inclusas',
+      'DRE e Valuation automáticos',
+      'Dashboard financeiro completo',
+      'Lançamentos ilimitados',
+      'Suporte prioritário',
     ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=lucro',
+    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=anual',
     highlighted: true,
     badge: 'Mais Popular',
-  },
-  {
-    name: 'PATRIMÔNIO',
-    price: '179',
-    description: 'Construir e proteger patrimônio',
-    features: [
-      'Para EPP (acima de R$ 360K/ano)',
-      '15 usuários',
-      'Tudo do plano LUCRO',
-      'Acesso para Contador',
-    ],
-    href: 'https://gestao-financeira-clone-0ca8c.goskip.app/signup?plan=patrimonio',
-    highlighted: false,
   },
 ]
 
@@ -60,7 +49,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-center">
           {plans.map((plan, idx) => (
             <Card
               key={idx}

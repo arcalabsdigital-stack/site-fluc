@@ -1,5 +1,6 @@
 import { SectionWrapper } from '@/components/SectionWrapper'
 import { Card, CardContent } from '@/components/ui/card'
+import { FlucLogo } from '@/components/FlucLogo'
 import { cn } from '@/lib/utils'
 import {
   LayoutDashboard,
@@ -147,9 +148,7 @@ export function DashboardPreview() {
               {/* Sidebar mockup */}
               <aside className="lg:w-60 shrink-0 bg-white border-b lg:border-b-0 lg:border-r border-slate-200 p-4">
                 <div className="flex items-center gap-2 mb-6 px-2">
-                  <div className="w-8 h-8 rounded-lg bg-primary-gradient flex items-center justify-center">
-                    <Wallet className="w-4 h-4 text-white" />
-                  </div>
+                  <FlucLogo className="w-8 h-8 text-base" />
                   <span className="font-bold text-slate-900">Fluc</span>
                 </div>
                 <nav className="flex lg:flex-col gap-1 overflow-x-auto">

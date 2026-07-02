@@ -1,5 +1,6 @@
 import { SectionWrapper } from '@/components/SectionWrapper'
 import { Card, CardContent } from '@/components/ui/card'
+import { FlucLogo } from '@/components/FlucLogo'
 import { CheckCircle2, XCircle } from 'lucide-react'
 
 export function Comparison() {
@@ -7,7 +8,10 @@ export function Comparison() {
     <SectionWrapper className="py-24 bg-white">
       <div className="container px-4 mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Fluc vs. Mercado</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 flex items-center justify-center gap-3">
+            <FlucLogo className="w-10 h-10 text-xl" />
+            Fluc vs. Mercado
+          </h2>
           <p className="text-lg text-slate-600">
             Veja porque somos a escolha inteligente para o seu negócio.
           </p>
@@ -19,6 +23,7 @@ export function Comparison() {
             <div className="absolute top-0 left-0 w-full h-2 bg-primary-gradient" />
             <CardContent className="p-8 sm:p-10">
               <h3 className="text-3xl font-bold text-slate-900 mb-8 flex items-center gap-3">
+                <FlucLogo className="w-9 h-9 text-lg" />
                 Fluc
               </h3>
               <ul className="space-y-6">

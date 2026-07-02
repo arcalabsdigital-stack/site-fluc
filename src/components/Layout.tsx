@@ -116,19 +116,19 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="bg-slate-900 py-12 text-slate-400">
+      <footer className="bg-white py-12 text-slate-600 border-t border-slate-200">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2 text-white opacity-80">
-            <FlucLogo className="w-6 h-6 text-base" />
+          <div className="flex items-center gap-2 text-slate-900">
+            <FlucLogo className="w-6 h-6 text-sm" />
             <span className="text-xl font-bold tracking-tighter">Fluc</span>
           </div>
-          <p className="text-sm text-center md:text-left">
+          <p className="text-sm text-center md:text-left text-slate-500">
             © 2026 Fluc. Todos os direitos reservados.
           </p>
           <div className="flex gap-4">
             <a
               href="#"
-              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 hover:text-white transition-colors"
+              className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-slate-200 hover:text-slate-900 transition-colors text-slate-600"
             >
               <span className="sr-only">Instagram</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -141,7 +141,7 @@ export default function Layout() {
             </a>
             <a
               href="#"
-              className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 hover:text-white transition-colors"
+              className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-slate-200 hover:text-slate-900 transition-colors text-slate-600"
             >
               <span className="sr-only">LinkedIn</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
