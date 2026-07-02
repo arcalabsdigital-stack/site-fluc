@@ -1,26 +1,23 @@
 import { SectionWrapper } from '@/components/SectionWrapper'
 import { Card, CardContent } from '@/components/ui/card'
+import { FileChartColumn, CalendarClock, PieChart, Building2 } from 'lucide-react'
 
 const problems = [
   {
     title: 'Não sabe o lucro mensal real',
-    imageUrl:
-      'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=400&h=400&q=80',
+    icon: FileChartColumn,
   },
   {
     title: 'Não consegue planejar fluxo de caixa',
-    imageUrl:
-      'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=400&h=400&q=80',
+    icon: CalendarClock,
   },
   {
     title: 'Não sabe onde está gastando mais',
-    imageUrl:
-      'https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=400&h=400&q=80',
+    icon: PieChart,
   },
   {
     title: 'Não conhece o valor da sua empresa',
-    imageUrl:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&h=400&q=80',
+    icon: Building2,
   },
 ]
 
@@ -45,12 +42,10 @@ export function Problems() {
               className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow bg-white rounded-2xl group"
             >
               <CardContent className="p-0 flex flex-col sm:flex-row items-center h-full">
-                <div className="w-full sm:w-2/5 aspect-square relative bg-slate-100 overflow-hidden">
-                  <img
-                    src={problem.imageUrl}
-                    alt={problem.title}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="w-full sm:w-2/5 aspect-square relative bg-slate-100 flex items-center justify-center overflow-hidden">
+                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-500">
+                    <problem.icon className="w-10 h-10 md:w-12 md:h-12" />
+                  </div>
                 </div>
                 <div className="w-full sm:w-3/5 p-6 md:p-8 flex items-center">
                   <h3 className="text-xl font-semibold text-slate-900 leading-snug">
